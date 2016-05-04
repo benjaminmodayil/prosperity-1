@@ -1,0 +1,186 @@
+/*
+ #cddc39
+    #826665
+    #ec5655;
+#d7d7d7
+*/
+
+* {
+margin: 0;
+padding: 0;
+}
+
+html {
+  background: url("../bg.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    background-color: #ec5655;
+    font-size: 62.5%;
+}
+header {
+
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+h1 {
+
+}
+#prosperity {
+            text-align: center;
+            display: block;
+            font-family:tangerine;
+            font-size:4em;
+            color:#d7d7d7;}
+#over {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    display: block;
+    font-family: "Open Sans Light";
+    font-weight: 100;
+    font-size: 1.4em;
+    margin-bottom: -3%;
+    color: #d7d7d7;
+}
+/*This might create problems (display:block^)*/
+
+.rightAlign {
+    float: right;
+    margin-right: 5%;
+    padding-left: 20px;
+    list-style: none;
+    display: inline;
+}
+li img {
+    width: 25%;
+    margin-bottom:-8%;
+}
+
+#one {
+}
+
+.rightAlign li {
+    padding: 5px;
+    color: #d7d7d7;
+    font-family: "Open Sans";
+    text-align: left;
+
+}
+.bgBrown {
+    background-color: #826665;
+    width:70%;
+    height:30em;
+    min-height: 40%;
+    margin:auto;
+    margin-top:11%;
+    border-radius: 15px;
+    clear: both;
+}
+
+
+.bgBrown p {
+    padding: 2em;
+    width:90%;
+    font-size:1.9em;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    color: #d7d7d7;
+    font-family: "Open Sans";
+}
+
+
+#interested {
+    margin-left: 45%;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+    padding: 1.5%;
+    border-radius: 10px;
+    background-color: #8adc39;
+    font-family: "Open Sans";
+
+}
+
+#left {
+    margin-left: 33%;
+    margin-right:auto;
+    display: inline;
+    margin-top: 2%;
+    text-align: center;
+    padding: 1.5%;
+    border-radius: 10px;
+    background-color: #8adc39;
+    font-family: "Open Sans";
+    float: left;
+    width: 10%
+}
+
+#right {
+    margin-left: 13%;
+    margin-right: auto;
+    display:inline;
+    margin-top: 2%;
+    text-align: center;
+    padding: 1.5%;
+    border-radius: 10px;
+    background-color: #8adc39;
+    font-family: "Open Sans";
+    float: left;
+    width:10%
+}
+
+form #firstname{
+    margin-bottom:8px;
+}
+form #lastname{
+    margin-bottom:8px;
+}
+form #email{
+    margin-bottom: 8px;
+}
+form {
+    margin-left: 40%;
+    margin-right: 50%;
+
+    border-radius: 12px;
+}
+#submit {
+    margin-left: 45%;
+    padding:10px 20px 10px 20px;
+    border-radius: 10px;
+    background-color: #8adc39;
+    margin-bottom: 5px;
+}
+.thanks {
+  font-size: 100%;
+}
+.hidden {
+    opacity: 0;
+}
+
+.side {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    right: 5%;
+    left: 2%;
+    z-index: -1;
+
+}
+
+.border {
+  border: 2.5px solid red;
+}
+/*
+hover animations on css buttons
+javascript event holders
+
+*/
